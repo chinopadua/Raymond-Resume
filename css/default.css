@@ -288,14 +288,14 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #404040;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
    -o-transition: color .3s ease-in-out;
    transition: color .3s ease-in-out;
 }
-a:hover, a:focus { color: #313131; }
+a:hover, a:focus { color: #1A1B2B; }
 p a, p a:visited { line-height: inherit; }
 
 
@@ -464,11 +464,11 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #0F0F0F;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
-   color: #fff;
+   color: #FFD000;
 	padding: 12px 20px;
 	margin-bottom: 18px;
    border: none;
@@ -492,8 +492,8 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-   background: #3d4145;
-   color: #fff;
+   background: #1A1B2B;
+   color: #FFD000;
 }
 
 .button:active,
